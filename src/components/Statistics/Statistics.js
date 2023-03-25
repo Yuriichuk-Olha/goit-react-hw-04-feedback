@@ -1,6 +1,4 @@
 import PropTypes from 'prop-types';
-import React from "react";
-
 export default function Statistics({ good, neutral, bad, total,PositivePercentage}){
     return ( 
     <div>

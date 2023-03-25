@@ -1,10 +1,7 @@
 import PropTypes from 'prop-types'; 
-import React from "react"
-import css from 'components/Feedback/section.module.css'
-
+import css from 'components/Section/section.module.css'
 
 const Section =({ title, children})=>{
-
     return (
         <>
             <div className={css.title}>{title}</div>

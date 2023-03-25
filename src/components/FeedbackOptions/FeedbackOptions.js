@@ -1,10 +1,8 @@
 import PropTypes from 'prop-types';
-import React from 'react';
-import css from 'components/Feedback/FeedbackOption.module.css';
+import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => {
- 
   return (
     <div className={css.conteinerBtn}>
 
@@ -13,7 +11,6 @@ const FeedbackOptions = ({options, onLeaveFeedback}) => {
               {option}
             </button>
            ))}
-   
 
         </div>
   );
